@@ -1,0 +1,114 @@
+@media only screen and (max-width: 1170px)
+ {
+.container> header> ul > li:hover
+{
+border: 2px solid #3a90d5;
+}
+
+
+.cont1ap 
+{
+    padding: 0px;
+}
+
+.centerap
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin:0px 0px 20px 0px;
+    width: 100%;
+}
+.centerap> h2
+{
+    padding-top: 45px;
+}
+.imgap
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.cont7ap
+{
+    margin: 25px 10px 0px 10px ;
+}
+.blocap
+{
+    flex-direction: column;
+}
+.ksap
+{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.ckap
+{
+    text-align: center;
+}
+
+.cont9ap> h2
+ {
+    padding: 30px 0px 10px 20px;
+}
+
+.horizontallinesap
+{
+    margin-left: 20px;
+}
+
+.cont8ap
+{
+    margin: 25px 10px 0px 10px ;
+}
+.col1ap> ul
+{
+  font-size: 21px;
+  margin-left: 0px;
+}
+
+.main1ap
+{
+    flex-direction: column;
+}
+
+.horizontallineap
+{
+    width: 300px;
+}
+.cont4ap
+{
+    margin: 10px 10px 0px 10px ;
+    height: 235px;
+    border-radius: 30px;
+}
+
+.lastboxap
+{
+    padding: 10px 25px 10px 25px;
+}
+.lastboxap> h2
+{
+    font-size: 20px;
+}
+.lastboxap> p
+{
+    margin-top: 15px;
+}
+.buttonap > button {
+    width: 120px;
+    height: 45px;
+}
+
+.hide1
+{
+    display: none;
+}
+.buynowap:hover
+{
+    transform: scale(1.1);
+}
+.cont3ap
+{
+    margin-left: -17px;
+}
+ }

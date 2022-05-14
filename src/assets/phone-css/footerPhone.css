@@ -1,0 +1,52 @@
+@media only screen and (max-width: 1170px)
+ {
+.container> header> ul > li:hover
+{
+border: 2px solid #3a90d5;
+}
+
+.cont5
+{
+    margin: 0px;
+    height: 350px;
+}
+.cont5>section{
+    margin: 20px 0px 0px 0px !important;
+    padding-bottom: 0px !important;
+}
+.cont5>section>div
+{
+    width: 100%;
+    justify-content: center !important;
+    text-align: center;
+    font-size: 12px;
+}
+.cont5> section >div >h2
+{
+      font-size: 20px;
+      margin: 0px;
+}
+.google-play
+{
+    height: 73px;
+    width: 225px;
+    margin-left: -4px;
+}
+.google-play:hover
+{
+    transform: scale(1.1);
+}
+.icons> i
+{
+  font-size: 25px;
+   padding-right: 15px;
+}
+.hide1
+{
+    display: none;
+}
+.homefo
+{
+    margin: 0px;
+}
+ }

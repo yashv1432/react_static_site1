@@ -1,0 +1,21 @@
+.owl-stage
+{
+    width: 46710px !important;
+}
+.owl-item
+{
+    margin-right: 20px !important;
+}
+.item{
+    width: 100%;
+}
+.item > img
+{
+    width: 100% !important;
+    margin-right: 20px !important;
+    border-radius: 20px;
+}
+.owl-dots
+{
+    display: none !important;
+}

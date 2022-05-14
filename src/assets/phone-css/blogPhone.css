@@ -1,0 +1,134 @@
+@media only screen and (max-width: 1170px)
+ {
+.container> header> ul > li:hover
+{
+border: 2px solid #3a90d5;
+}
+
+
+#cont7bl
+{
+    margin: 30px 10px 0px 10px;
+
+    
+}
+#cont7bl> h2
+{
+    padding-top: 8px;
+    font-size: 24px;
+}
+#cont7bl> p
+{
+    font-size: 15px;
+}
+
+
+#centerbl
+{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#centerbl> h2
+{
+    padding-top: 45px;
+    font-size: 38px;
+}
+#imgbl
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#inputsbl
+{
+   flex-direction: column;
+}
+
+#cont3bbl
+{
+    margin: 10px 50px 10px 50px;
+}
+.img-cont>img
+{
+    height: 50px;
+    width: 50px;
+}
+.img-cont> p
+{
+    font-size: 12px;
+}
+.p1
+{
+    font-size: 20px;
+}
+
+.p2
+{
+    font-size: 14px;
+}
+
+
+
+
+#servicescontainerbl
+{
+    margin-top: 30px;
+}
+
+#servicesbl
+{
+    flex-direction: column;
+    margin: 10px;
+}
+#servicesbl .boxbl img
+{
+height: 136px;
+}
+#servicesbl .boxbl 
+{
+padding: 14px;
+margin: 2px 6px;
+margin-bottom: 20px;
+}
+#servicesbl .boxbl h2
+{
+    font-size: 15px;
+}
+
+#cont71bl
+{
+    margin: 20px 10px 0px 10px;
+    align-items: center;
+}
+#cont71bl > h2
+{
+    font-size: 30px;
+}
+#services-container1bl
+{
+    margin-top: 30px;
+}
+
+#services-1
+{
+    flex-direction: column;
+    margin: 10px;
+}
+#services-1 .box-1 img
+{
+height: 136px;
+}
+#services-1 .box-1 
+{
+padding: 14px;
+margin: 2px 6px;
+margin-bottom: 20px;
+}
+#services-1 .box-1 h2
+{
+    font-size: 15px;
+}
+
+
+
+}

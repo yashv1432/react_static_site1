@@ -1,0 +1,89 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.container-fluid
+{
+    /* max-width: 1280px !important; */
+    padding: 0px !important;
+}
+.container-fluid> header> ul > li > a
+{
+    color: #3a90d5 ;
+}
+
+
+
+.cont1bs
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 4px 200px;
+    height: 530px;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+.cont1bs::before
+{
+    content: "";
+    position: absolute;
+    /* background: url(Images/business.jpg) no-repeat center center/cover; */
+    /* clip-path: polygon(0px 0px, 100% 0px, 100% 93%, 69% 100%, 31% 100%, 0px 93%); */
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.content1bs
+{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+#featured-3
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.contcbs
+{
+    margin: 40px 160px 20px 150px;
+}
+.contcbs>p 
+{
+   font-size: 19px;
+   font-family: 'Lora', serif;
+}
+.contcbs> ol
+{
+    font-size: 19px;
+}
+
+.joinusbs {
+    width: 105px;
+    height: 45px;
+    background: linear-gradient(180deg, rgba(233,26,47,1) 0%, rgba(184,19,69,1) 100%);
+    color: white;
+    border: 0px solid #3a90d5;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.joinusbs:hover
+{
+    transform: scale(1.1);
+}
+

@@ -1,0 +1,194 @@
+@media only screen and (max-width: 1170px)
+{
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.container
+{
+    max-width: 1280px !important;
+    padding: 0px !important;
+}
+.container> header> ul > li >a
+{
+    color: #3a90d5;
+}
+
+#cont1me
+{
+    flex-direction: column;
+}
+#shiftme
+{
+    
+    margin-left: 0px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content1me
+{
+   
+    font-size: 34px;
+    text-align: center;
+    margin-left: 0px;
+}
+.content2me
+{
+  
+    font-size: 15px;
+    text-align: center;
+    margin-left: 0px;
+}
+.content3me
+{
+   
+    margin-left: 0px;
+}
+
+.lastboxme>p{
+    
+    font-size: 16px;
+}
+
+
+.lastboxme> h2
+{
+
+font-size: 35px;
+}
+#cont2me
+{
+    margin: 0px 10px 10px 10px;
+}
+#cont3me
+{
+    margin: 180px 30px 10px 5px;
+}
+
+#cont2meInflu {
+    margin: 0px 100px 0px 100px;
+}
+.featimgme {
+    width: 310px;
+    height: 300px;
+    margin: 0px;
+}
+
+.accme {
+    align-items: flex-start;
+}
+.accme>img {
+    height: 55px;
+    width: 55px;
+    margin: 10px;
+}
+
+#cont9me
+{
+    margin: 60px 10px 10px 10px;
+    flex-direction: column;
+}
+#cont4me
+{
+    margin: 10px;
+    height: 417px;
+}
+#cont90me
+{
+    margin: 110px 10px 10px 10px;
+    flex-direction: column;
+}
+
+
+.cont91me> h2
+{
+    margin-top: 0px;
+}
+
+.cont91me> p
+{
+    margin: 18px 50px;
+}
+.cont91me
+{
+    margin-top: 30px ;
+}
+.getservicesme 
+{
+    margin-bottom: 20px;
+}
+.getservicesme:hover
+{
+    transform: scale(1.1);
+}
+.imag
+{
+ display: none;
+}
+
+#cont31
+{
+    margin: 0px;
+}
+#cont32 {
+    
+    margin: 10px; 
+   flex-direction: column;
+}
+#cont34 {
+   
+   margin-left: 20px;
+}
+#cont34 > h2 
+{
+    font-size : 20px;
+}
+#cont4me
+{
+ flex-direction: column;
+ height: 420px;
+ margin-top: 25px;
+}
+#cont55me
+{
+   margin: 20px;
+}
+#lastboxme> h2
+{
+    font-size: 30px;
+}
+.leadme
+{
+    margin-top: 40px;
+}
+.stepsme
+{
+    margin: 10px;
+}
+.shopnowme:hover
+{
+    transform: scale(1.1);
+}
+.knowmoreme:hover
+{
+    transform: scale(1.1);
+}
+.readnowme:hover
+{
+    transform: scale(1.1);
+
+}
+.lastboxme:hover
+{
+    transform: scale(1.1);
+}
+
+}

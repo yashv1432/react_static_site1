@@ -1,0 +1,110 @@
+
+@media only screen and (max-width: 1170px)
+{
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.container
+{
+    max-width: 1280px !important;
+    padding: 0px !important;
+}
+.container> header> ul > li >a
+{
+    color: #3a90d5;
+}
+
+.cont1it 
+{
+    padding: 0px !important;
+}
+
+.servicescontainerit
+{
+    margin: 25px;
+}
+.servicesit
+{
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+}
+.servicesit .boxit img
+{
+height: 136px;
+}
+.servicesit .boxit 
+{
+padding: 14px;
+margin: 2px 6px;
+margin-bottom: 20px;
+width: auto;
+height: 250px;
+}
+
+
+/* .cont3it
+{
+    margin: 50px 15px 0px 15px;
+} */
+
+
+.featuretteit
+{
+    margin: 10px;
+}
+.cont4it
+{
+    margin: 0px;
+ 
+}
+.lastboxit
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.lastboxit> h2
+{
+text-align: center;
+color: #3a90d5;
+}
+.lastboxit>a> button
+{
+  width: 115px;
+  height: 50px;
+  background: linear-gradient(180deg, rgba(233,26,47,1) 0%, rgba(184,19,69,1) 100%);
+  color: white;
+  border: 0px solid #f36a28;
+  margin-top: 10px;
+  border-radius: 30px;
+}
+.lastboxit>a>button:hover
+{
+    transform: scale(1.1);
+}
+#hide1
+{
+    display: none;
+}
+.servicesit .boxit h2
+{
+    margin-top: -55px;
+}
+}
+
+
+
+
+
+
+

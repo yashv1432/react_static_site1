@@ -1,0 +1,244 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.container-fluid
+{
+    /* max-width: 1280px !important; */
+    padding: 0px !important;
+}
+.container-fluid> header> ul > li > a
+{
+    color: #3a90d5 ;
+}
+
+.cont1af
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 4px 200px;
+    height: 530px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cont1af::before
+{
+    content: "";
+    position: absolute;
+    /* background: url(../images/business.jpg) no-repeat center center/cover; */
+    /* clip-path: polygon(0px 0px, 100% 0px, 100% 93%, 69% 100%, 31% 100%, 0px 93%); */
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.content1af
+{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.cont2af
+{
+    margin: 50px 150px 0px 150px;
+}
+.cont2af> h2
+{
+    color: rgba(233,26,47,1) ;
+    text-align: center;
+    font-size: 35px;
+
+}
+.blocksaf
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.blocknaf
+{
+    display: flex;
+    align-items: center;
+  
+}
+.blocknaf> p
+{
+    color: #3a90d5;
+    flex-basis: 20%;
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.blockn1af
+{
+   
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f0f0;
+    width: 100%;
+    border-radius: 6px;
+    padding: 15px;
+}
+.blockn1af> h2
+{
+    color: #3a90d5;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.blockn1af> p
+{
+    font-size: 18px;
+    font-family: 'Lora', serif;
+}
+.stepsaf{
+    margin: 50px 150px;
+}
+
+
+
+/* .stepsaf
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 50px 20px 50px;
+}
+
+.dropdown-toggle::after
+{
+    display: none !important;
+}
+
+.stepsaf> div{
+
+    width: 100%;
+    height: 65px;
+    display: flex !important;
+    margin-right: 0px;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(0,210,255,1) 0%, rgba(58,144,213,1) 100%) !important;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.stepsaf>div >button
+{
+    display: flex;
+    background: none;
+    border: none;
+    align-items: center;
+    text-align: start;
+} */
+.plusaf> img
+{
+    height: 20px;
+    width: 20px;
+    margin: 0px 10px;
+}
+
+.show1af
+{
+    /* height: 150px;
+    width: 1000px; */
+    position: absolute;
+    inset: 0px auto auto 0px;
+    margin: 0px;
+    transform: translate3d(0px, 72px, 0px);
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.dropdown
+{
+    margin-bottom: 10px;
+}
+
+.servicescontaineraf
+{
+    margin-top: 60px;
+}
+.servicescontaineraf> h1
+{
+text-align: center;
+color: rgba(233,26,47,1) ;
+font-family: 'Roboto', sans-serif;
+}
+.servicesaf
+{
+    margin: 34px 140px 34px 140px;
+display: flex;
+justify-content: space-around;
+}
+.servicesaf .boxaf
+{
+    margin: 3px 6px;
+    height: 310px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.servicesaf .boxaf h2
+{
+    text-align: center;
+    color: #3a90d5;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+.servicesaf .boxaf p
+{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    color: #3a90d5;
+    font-size: 22px;
+    font-family: 'Lora', serif;
+}
+
+.btn2af
+{
+    margin: 50px 150px 50px 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.orangeaf
+{
+    background: linear-gradient(180deg, rgba(233,26,47,1) 0%, rgba(184,19,69,1) 100%);
+    color: white;
+    height: 45px;
+    width: 265px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: 0px;
+    margin-top: 5px;
+}
+.orangeaf:hover
+{
+    transform: scale(1.1);
+}
+.blueaf
+{
+    background: linear-gradient(180deg, rgba(233,26,47,1) 0%, rgba(184,19,69,1) 100%);
+    color: white;
+    height: 45px;
+    width: 265px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: 0px;
+}
+.blueaf:hover
+{
+    transform: scale(1.1);
+}
+
+

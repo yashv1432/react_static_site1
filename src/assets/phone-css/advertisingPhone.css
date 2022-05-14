@@ -1,0 +1,54 @@
+@media only screen and (max-width: 1170px)
+ {
+.container> header> ul > li:hover
+{
+border: 2px solid #3a90d5;
+}
+
+
+.cont1ad
+{
+    padding: 0px;
+}
+
+.servicesad
+{
+    flex-direction: column;
+    margin: 10px;
+}
+.servicesad .boxad img
+{
+height: 136px;
+}
+.servicesad .boxad 
+{
+padding: 14px;
+margin: 2px 6px;
+margin-bottom: 20px;
+}
+
+.featurette
+{
+    margin: 10px;
+}
+
+.cont3ad
+{
+    margin: 10px;
+}
+
+.cont4ad
+{
+    margin: 25px;
+    height: 200px;
+    border-radius: 30px;
+}
+.lastboxad>a> button:hover
+{
+   transform: scale(1.1);
+}
+.servicesad > .boxad > h2
+{
+    margin-top: -120px;
+}
+ }

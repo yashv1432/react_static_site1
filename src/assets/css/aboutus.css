@@ -1,0 +1,121 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.container-fluid
+{
+    /* max-width: 1280px !important; */
+    padding: 0px !important;
+}
+.container-fluid> header> ul > li > a
+{
+    color: #3a90d5 ;
+}
+
+
+#cont1ab
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 4px 200px;
+    height: 530px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#cont1ab::before
+{
+    content: "";
+    position: absolute;
+    /* background: url(../images/business.jpg) no-repeat center center/cover; */
+    /* clip-path: polygon(0px 0px, 100% 0px, 100% 93%, 69% 100%, 31% 100%, 0px 93%); */
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.content1ab
+{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+#cont3ab
+{
+    margin: 80px 110px 0px 110px;
+}
+ .topab
+{
+    margin-top: 80px;
+}
+
+#contxab
+{
+    margin: 80px 110px 0px 110px; 
+}
+#contxab > p
+{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+
+#contyab
+{
+    margin: 80px 110px 0px 110px; 
+
+}
+#contyab > h2
+{
+    color: rgba(233,26,47,1) ;
+    text-align: center;
+    font-size: 30px;
+   
+}
+#contyab > p
+{
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+
+.imagesab
+{
+    display: flex;
+    justify-content: space-around;
+}
+.imagesab>img
+{
+    height: 150px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+
+#contzab
+{
+    margin: 80px 110px 0px 110px; 
+
+}
+#contzab > h2
+{
+    color: rgba(233,26,47,1);
+    text-align: center;
+    font-size: 30px;
+   
+}
+#contzab > p
+{
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+
+

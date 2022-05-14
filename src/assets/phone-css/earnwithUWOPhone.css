@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1170px)
+ {
+     .container> header> ul > li:hover
+{
+border: 2px solid #3a90d5;
+}
+
+
+.cont1ea 
+{
+    padding: 0px;
+}
+
+.content1ea
+{
+    font-size: 53px;
+}
+
+
+#services
+{
+    flex-direction: column;
+    margin: 10px;
+}
+#services .box img
+{
+height: 136px;
+}
+#services .box 
+{
+padding: 14px;
+margin: 2px 6px;
+margin-bottom: 20px;
+}
+
+.cont3ea
+{
+    margin: 10px;
+}
+
+.cont4ea
+{
+    margin: 25px;
+}
+.cont2ea
+{
+    margin: 0px;
+    text-align: center;
+}
+#hide1
+{
+    display: none;
+}
+.joinusea:hover
+{
+    transform: scale(1.1);
+}
+ }

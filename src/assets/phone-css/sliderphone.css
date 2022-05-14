@@ -1,0 +1,18 @@
+@media only screen and (max-width: 1170px)
+{
+    .item > img
+    {
+        
+        border-radius: 10px;
+    }
+    .owl-stage
+    {
+        width: 24800px !important;
+    }
+    .owl-item
+{
+    margin-right: 10px !important;
+}
+
+}
+

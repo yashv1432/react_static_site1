@@ -1,0 +1,109 @@
+@media only screen and (max-width: 1170px)
+{
+.container> header> ul > li:hover
+{
+border: 2px solid #3a90d5;
+}
+
+
+#cont1rm 
+{
+    padding: 0px;
+    flex-direction: column;
+}
+#cont1rm::before
+{
+    clip-path: none;
+    /* clip-path: polygon(0px 0px, 100% 0px, 100% 21%, 100% 100%, 0% 100%, 0px 0%);   */
+}
+#content-1
+{
+    margin-left: 0px;
+}
+#content-2
+{
+    margin-left: 0px;
+}
+.imag> img{
+    height: 100px;
+    width: 300px;
+}
+.lastboxuw1
+{
+    margin: 10px;
+}
+
+#center
+{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#center> h2
+{
+    padding-top: 45px;
+}
+#img
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.cont3rm
+{
+    margin: 10px !important;
+}
+.img100
+{
+    height: 330px !important;
+    width: 317px !important;
+}
+.top
+{
+    margin-left: 5px;
+    margin-top: 35px !important;
+}
+#cont2rm
+{
+    margin: 10px 10px 0px 10px ;
+}
+
+.lastboxuw1
+{
+    padding: 35px 25px 10px 25px;
+}
+.lastboxuw1> h2
+{
+    font-size: 20px;
+}
+.button > button {
+    width: 120px;
+    height: 45px;
+}
+.cont4rm
+{
+    margin: 25px 10px 0px 10px !important;
+    border-radius: 30px !important;
+}
+
+#lastboxuw2
+{
+    padding: 30px 25px 10px 25px !important;
+}
+#lastboxuw2> h2
+{
+    font-size: 20px !important;
+}
+.button > button {
+    width: 120px !important;
+    height: 45px !important;
+}
+#hide1
+{
+    display: none;
+}
+.buynowuw:hover
+{
+    transform: scale(1.1);
+}
+
+
+}

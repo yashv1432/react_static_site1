@@ -1,0 +1,31 @@
+@media only screen and (max-width: 1170px)
+ {
+.container> header> ul > li:hover
+{
+border: 2px solid #3a90d5;
+}
+
+.cont1bs 
+{
+    padding: 0px;
+}
+
+
+.contcbs
+{
+    margin: 30px 22px 10px 22px;
+}
+.content1bs
+{
+    font-size: 53px;
+}
+
+#hide1
+{
+    display: none;
+}
+.joinusbs:hover
+{
+    transform: scale(1.1);
+}
+ }

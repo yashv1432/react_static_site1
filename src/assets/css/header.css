@@ -1,0 +1,143 @@
+
+.head
+{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 6;
+}
+
+.nav1{
+    justify-content: space-between !important;
+}
+.nav-link
+{
+    padding: 5px !important;
+}
+
+
+/* / 
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+} */ */
+.navbar{
+   background-color: white;
+    height: 80px;
+    width: 100%;
+    position: sticky !important;
+    top: 0;
+    z-index: 999 !important;
+}
+.navbar-brand
+{
+    height: 50px;
+        width: 160px;
+        margin-left: 20px;
+}
+.navbar-brand > img
+{
+    height: 50px;
+    width: 180px;
+}
+.right
+{
+    justify-content: flex-end;
+}
+.navbar ul{
+    float: right !important;
+    margin-right: 20px;
+}
+.navbar ul li
+{
+    display: block !important;
+    /* / line-height: 80px; / */
+    margin: 0 10px;
+}
+.navbar ul li a{
+    color: #3a90d5 ;
+    /* background-color: #fff !important; */
+    font-size: 16px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    /* / text-transform: uppercase; / */
+}
+/* a.active
+{
+    
+    background : #1b9bff;
+    transition: .5s;
+} */
+.home
+{
+    color: #3a90d5 !important;
+    padding: 5px;
+}
+.home:hover
+{
+    color: white !important;
+    background : #3a90d5 !important;
+    transition: .1s !important;
+    /* height: 35px;
+    width: 80px; */
+    text-align: center;
+    align-items: center;
+}
+.checkbtn1
+{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none !important;
+}
+.check
+{
+    display: none;
+}
+.liner
+{
+    border: 1.5px solid #3a90d5;
+    background-color: #3a90d5;
+    position: sticky !important;
+    top: 0;
+    z-index: 999 !important;
+}
+.dropdown-item.active {
+    color: #fff !important;
+    text-decoration: none !important;
+    background-color: #3a90d5 !important;
+}
+.dropdown-item:active{
+    color: #fff !important;
+    text-decoration: none !important;
+    background-color: #3a90d5 !important;
+
+}
+.igap
+{
+ margin-left: 4px;
+}
+.index
+{
+    z-index: 999;
+}
+.down
+{
+    color:  #3a90d5!important;
+}
+
+/* .dropdown-item.active
+{
+    background-color: #fff !important;
+} */
+
+.hello
+{
+    display: none !important;
+}

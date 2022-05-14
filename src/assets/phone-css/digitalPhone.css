@@ -1,0 +1,111 @@
+@media only screen and (max-width: 1170px)
+ {
+     .container> header> ul > li:hover
+{
+border: 2px solid #3a90d5;
+}
+
+
+.cont1di 
+{
+    padding: 0px;
+}
+.cont1di::before
+{
+    clip-path: polygon(0px 0px, 100% 0px, 100% 97%, 76% 100%, 24% 100%, 0px 96%);
+}
+
+.servicesdi
+{
+    flex-direction: column;
+    margin: 10px;
+}
+
+.servicesdi .box img
+{
+height: 60px;
+}
+.servicesdi .box 
+{
+padding: 14px;
+margin: 2px 6px;
+margin-bottom: 20px;
+}
+
+.cont3di
+{
+    margin: 10px;
+}
+
+.shop-now
+{
+    margin-bottom: 25px;
+}
+
+.cont4di
+{
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.lastboxdi
+{
+    padding-top: 18px;
+    text-align: center;
+    padding-right: 5px;
+}
+.lastboxdi>h2
+{
+    font-size: 20px;
+}
+
+#hide1
+{
+    display: none;
+}
+.cont7di
+{
+    margin: 80px 10px 0px 10px;
+    height: 80px;
+}
+.cont7di> p
+{
+    padding-top: 8px;
+    font-size: 24px;
+}
+
+.cont8di
+{
+    flex-direction: column;
+    margin: 40px 20px 20px 20px;
+}
+
+.cont9di {
+    margin: 80px 20px 20px 20px;
+}
+
+.row> div
+{
+    margin-bottom: 10px;
+}
+
+.cont10di {
+    margin: 80px 50px 20px 50px;
+}
+.lastboxdi>a> button:hover
+{
+    transform: scale(1.1);
+}
+.buy-now:hover
+{
+    transform: scale(1.1);
+}
+.shopnowdi:hover
+{
+    transform: scale(1.1);
+}
+.cont7dip
+{
+    padding-top: 15px;
+}
+ }

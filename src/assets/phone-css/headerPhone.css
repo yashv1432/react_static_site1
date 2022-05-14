@@ -1,0 +1,77 @@
+
+@media only screen and (max-width: 1170px)
+{
+    .checkbtn1{
+    display: block !important;
+    margin-right: 30px;
+    margin-top: -18px;
+}
+
+.navbar-brand > img
+{
+    height: 40px;
+    width: 160px;
+}
+.navbar-toggler
+{
+    color: #3a90d5;
+    font-size: 30px !important;
+ 
+}
+.navbar >ul
+{
+    position: fixed !important;
+    width: 100%;
+    /* / height: 100vh; / */
+    background-color: white;
+    top: 80px;
+    right: -100%;
+    text-align: center;
+    transition: all .5s;
+}
+.navbar ul li {
+    display: block !important;
+    line-height: 17px;
+    text-align: start !important;
+}
+.navbar ul li a 
+{
+    color: #3a90d5 !important;
+    font-size: 13px;
+}
+.navbar ul
+ {
+    margin-right: 0px;
+    background-color: white;
+    width: 100%;
+}
+/* a.active
+{
+
+background : none;
+color: #0082e6;
+} */
+.home:hover
+{
+background : none !important;
+color: #0082e6 !important;
+text-align: left;
+
+}
+#check:checked ~ ul 
+{
+right: 0 !important;
+}
+
+.liner
+{
+    display: none;
+}
+
+.hello
+{
+    display: block !important;
+    margin: 0px 10px;
+}
+
+}

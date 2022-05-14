@@ -1,0 +1,63 @@
+@media only screen and (max-width: 1170px)
+ {
+
+.container> header> ul > li:hover
+{
+border: 2px solid #3a90d5;
+}
+
+
+#cont1ab
+{
+    padding: 0px;
+}
+
+.content1ab
+{
+    font-size: 53px;
+}
+
+#cont3ab {
+    margin: 20px 11px 0px 10px;
+}
+
+ .topab
+{
+    margin-top: 0px;
+}
+
+#contxab {
+    margin: 20px 10px 0px 10px;
+}
+#contyab {
+    margin: 20px 10px 0px 10px;
+}
+.imagesab
+{
+    flex-direction: column;
+    align-items: center;
+}
+.imagesab>img
+{
+    height: 130px;
+    width: 300px;
+    margin-top: 100px;
+}
+#contyab > h2 {
+
+    text-align: center;
+    font-size: 34px;
+    margin-top: 60px;
+}
+#contzab {
+    margin: 20px 10px 0px 10px;
+}
+#contzab > h2 {
+   
+    text-align: center;
+    font-size: 35px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+ }
